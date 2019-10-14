@@ -1,0 +1,66 @@
+$(document).ready(function(){
+ $(".design").click(function(){
+   $("#design-logo").toggle()
+   $("#p1").toggle()
+ }); 
+ $(".development").click(function(){
+  $("#dev-image").toggle()
+  $("#p2").toggle()
+}); 
+$(".prdct").click(function(){
+  $("#img3").toggle()
+  $("#p3").toggle()
+}); 
+$(".part1").hover(function(){
+  $("#f1").show()
+}); 
+$(".part1").mouseleave(function(){
+  $("#f1").hide()
+});
+$(".part2").hover(function(){
+  $("#f2").show()
+}); 
+$(".part2").mouseleave(function(){
+  $("#f2").hide()
+});
+$(".part3").hover(function(){
+  $("#f3").show()
+}); 
+$(".part3").mouseleave(function(){
+  $("#f3").hide()
+});
+$(".part4").hover(function(){
+  $("#f4").show()
+}); 
+$(".part4").mouseleave(function(){
+  $("#f4").hide()
+});
+$(".part5").hover(function(){
+  $("#f5").show()
+}); 
+$(".part5").mouseleave(function(){
+  $("#f5").hide()
+});
+$(".part6").hover(function(){
+  $("#f6").show()
+}); 
+$(".part6").mouseleave(function(){
+  $("#f6").hide()
+});
+$(".part7").hover(function(){
+  $("#f7").show()
+}); 
+$(".part7").mouseleave(function(){
+  $("#f7").hide()
+});
+$(".part8").hover(function(){
+  $("#f8").show()
+}); 
+$(".part8").mouseleave(function(){
+  $("#f8").hide()
+});
+$("form").submit (function(event){
+  var name =$("#name").val();
+  alert("Thank you " + name + "for your message!Received successfully");
+});
+});  
