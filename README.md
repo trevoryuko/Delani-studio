@@ -1,6 +1,6 @@
-# Delani Studio()
+# [Delani Studio](https://trevoryuko.github.io/Delani-studio/)
 #### This is a single page responsive site, 28th September 2019
-#### By **Trevor Trevor**
+#### By **[Trevor Trevor](https://www.github.com/trevoryuko)**
 ## Description
 This is a remodelled version of an already existing website. The new model makes it more responsive.
 ## Setup/Installation Requirements
